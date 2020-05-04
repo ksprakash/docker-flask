@@ -1,0 +1,3 @@
+FLASK_APP=app.py
+FLASK_ENV=staging
+FLASK_RUN_PORT=8080
