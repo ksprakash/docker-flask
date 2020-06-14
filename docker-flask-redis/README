@@ -5,6 +5,12 @@ STEP 2: GIT CLONE <REPO>
 STEP 3: OPEN FIREWALL PORTS for 80,6379(NO NEED of 6379, web framework can talk to redis service internally)
 STEP 4: In location of app.py,requirememts.txt,Dockerfile,docker-compose.yml, give command
 docker-compose up
+
+http://<IPADDRESS>             //WHAT-TO-DO
+http://<IPADDRESS>/add_word/word=<word>    //using this store some words to test
+http://<IPADDRESS>/wordslist               //Using this we can see what words are added 
+http://<IPADDRESS>/autocompletion/query=<word>  //Gives all matching patterns of the word
+
 =======================================================================================================================
 
 
