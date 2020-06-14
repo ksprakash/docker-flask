@@ -17,6 +17,9 @@ def index():
     <p>/add_word/word=foobar </p>
     <p>/add_word/word=exam </p>
     <p></p>
+    <p>Get all Words List Entered</p>
+    <p>/wordslist</p>
+    <p></p>
     <p>SAMPLE OUTPUT </p>
     <p>/autocomplete/query=fo</p>
     [
