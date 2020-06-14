@@ -38,7 +38,7 @@ python app.we can see whats inside Dockerfile
 
 app.py------------> The main logic of framework resides here with three endpoints: 
 one for /add-word/word=<word>
-second one for /autocompletion/query=<word>   (ALL MATCHING PATTERNS WILL RETURN: used inbuild keys(pattern=<word*>)
+second one for /autocomplete/query=<word>   (ALL MATCHING PATTERNS WILL RETURN: used inbuild keys(pattern=<word*>)
 third one for /wordslist 
 
 finally docker-compose.yml----> creates two services by exposing required ports
