@@ -1,10 +1,11 @@
 =======================================================================================================================
+HOW TO START  A  SERVICES 
 STEP 1: FIRST INSTALL PREREQUISITES docker and docker-compose
 STEP 2: GIT CLONE <REPO>
 STEP 3: OPEN FIREWALL PORTS for 80,6379(NO NEED of 6379, web framework can talk to redis service internally)
 STEP 4: In location of app.py,requirememts.txt,Dockerfile,docker-compose.yml, give command
 docker-compose up
-
+=======================================================================================================================
 
 
 #Install docker and docker compose on server needed
